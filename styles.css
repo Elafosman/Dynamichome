@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    color: #201708;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(#e1c09a, white);
+    
+}
+
+#hero {
+    background-image: url("/images/sunset.jpg");
+    background-size: cover;
+
+    padding: 10px 0 40px 0;
+}
+
+#main-logo {
+    width: 100px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+#list{
+    color: #201708;
+    background: #fdd67a;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+#btn {
+    padding: 6px 12px;
+    background: #fdd67a;
+    border: 5px solid  #e1c09a;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+    color: #201708;
+    font-weight: 800;
+     text-shadow: -2px 2px 4px black;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+
+
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.places-section {
+    margin-top: 50px;
+}
+
+.place-title {
+    margin-bottom: 10px;
+}
+
+.place-hint {
+    margin-top: 0;
+}
+
+#place-img-cheers {
+    height: 200px;
+}
+
+.place-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #fdd67a;
+    border-radius: 10px;
+    background-image: url("images/burj.jpg");
+    background-size: cover;
+}
+
+#place-img-Museum:hover {
+    background-image: url("images/National-Museum-of-Sudan.jpg");
+}
+
+#place-img-Palace:hover {
+    background-image: url("/images/Republican-Palace-Museum-Khartoum.jpg");
+}
+
+#place-img-Al-Mogran:hover {
+    background-image: url("/images/khartoumtower.jpg");
+    
+}
+
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #46270b ;
+}
+
